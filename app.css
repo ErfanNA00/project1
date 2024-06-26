@@ -1,0 +1,661 @@
+.container {
+    width: 100%;
+    padding-right: 8.5rem;
+    padding-left: 8.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body{
+    line-height: 1.6;
+    font-size: 1.4rem;
+    font-family:  Roboto_medium;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* ____________
+
+     Header
+   ____________ */
+
+.header{
+    background-color: rgba(209, 185, 148, 0.359);
+    height: 80rem;
+}
+.container{
+
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: bree;
+}
+.header__text{
+    font-family: bree;
+    font-size: 2.4rem;
+    margin-left: 1.5rem;
+    color:  rgba(58, 58, 58, 0.71);
+}
+.header__pic{
+    width: 8rem;
+    height: 8rem;
+}
+.header__links{
+    display: flex;
+    cursor: pointer;
+}
+.header__link{
+    margin:0 2.7rem;
+    font-family: bree;
+    color: rgba(58, 58, 58, 0.71);
+    font-size: 1.5rem;
+}
+.header__link:hover{
+    color: rgb(36, 35, 35);
+    scale: 1.1;
+}
+.header__number{
+    font-family: bree;
+    color: rgba(58, 58, 58, 0.71);
+    cursor: pointer;
+}
+.header__number:hover{
+    color: rgb(36, 35, 35);
+}
+.header__data{
+    display: flex;
+    flex-direction: row;
+    margin-top:10rem;
+}
+.header__info{
+
+}
+.header__topic{
+    font-family: Roboto_medium;
+    color: rgb(222, 115, 15);
+}
+.header__wish{
+    font-size: 6.3rem;
+    color: rgb(42, 40, 40);
+    max-width: 56rem;
+    font-family: bree;
+    line-height: 1.2;
+}
+.header__caption{
+    font-size: 1.7rem;
+    max-width: 40rem;
+    font-family:  courgette;
+    margin-top: 2rem;
+    color:rgba(58, 58, 58, 0.71) ;
+}
+.header__btns{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+}
+.header__btn{
+    padding-left: 2rem;
+    font-family: bree;
+}
+.header__btn-color{
+    color: #fff;
+    background-color: rgb(36, 35, 35);
+    padding: 1.5rem 3rem;
+    border: 3px solid;
+    border-image-source: linear-gradient(to right, rgba(56, 56, 56, 0.76) ,rgba(255, 255, 255, 0.656));
+    border-image-slice: 6;
+}
+.header__image{
+    
+}
+.header__image-coffee{
+    width: 41rem;
+    height: 55rem;
+    margin-left: 14rem;
+    border: 6px solid;
+    border-image-source: linear-gradient(to right,rgba(56, 56, 56, 0.76) , 55%,rgba(255, 255, 255, 0.656));
+    border-image-slice: 6;
+}
+
+/* ____________
+
+     Main
+   ____________ */
+
+.main{
+    background-color:rgb(42, 40, 40) ;
+    width: 100%;
+    height: 80rem;
+    margin-top: -20rem;
+}
+.main__content{
+
+}
+.main__top{
+    color: rgba(102, 99, 99, 0.71);
+    padding-top: 2rem;
+    font-family: bree;
+}
+.main__numbers{
+    font-family:  courgette;
+    display: flex;
+    margin-top: 2rem;
+}
+.main__number{
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.886);
+    padding-left: 1rem;
+}
+.main__plus{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.main__three-cap{
+    display: flex;
+}
+.main__three{
+    color: rgba(255, 255, 255, 0.863);
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-family: bree;
+}
+.main__info{
+    display: flex;
+}
+.main__img{
+    margin-top: 10rem;
+}
+.main__img-pic{
+    
+}
+.main__pic{
+    width: 35rem;
+    height: 50rem;
+    border: 4px solid;
+    border-image-source: linear-gradient(to right,rgba(56, 56, 56, 0.666) , 65%,rgba(255, 255, 255, 0.836));
+    border-image-slice: 6;
+}
+.main__comment{
+    background-color: #fff;
+    width: 28rem;
+    height: 9rem;
+    text-align: center;
+    font-family:  courgette;
+    padding: 2.6rem 1rem;
+    position: absolute;
+    border: 4px solid;
+    border-image-source: linear-gradient(to right,rgb(56, 56, 56) , 65%,rgba(255, 255, 255, 0.503));
+    border-image-slice: 6;
+    bottom: 3rem;
+    margin-left: 17rem;
+}
+.main__like{
+
+}
+.main__icon{
+    position: absolute;
+    bottom: 6.3rem;
+    margin-left: 16rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(56, 56, 56);
+    border-radius: 100%;
+    padding: 0.3rem;
+}
+
+.main__menu{
+    margin-top: 15rem;
+    margin-left: 19rem;
+}
+.main__topic{
+    color: rgb(222, 115, 15);
+    font-family: bree;
+}
+.main__wish{
+    font-family: bree;
+    font-size: 4.5rem;
+    color: rgba(255, 255, 255, 0.863);
+    max-width: 35rem;
+    line-height: 1.3;
+    margin-top: 1.5rem;
+}
+.main__des{
+    color: rgba(255, 255, 255, 0.863);
+    font-family: courgette;
+    max-width: 27rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.main__coffee{
+    display: flex;
+    font-family: bree;
+    margin-top: 2rem;
+}
+.main__coffee-text{
+    padding-right: 3rem;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.863);
+}
+.main__coffee-color{
+    color: rgb(222, 115, 15);
+}
+.menu__more{
+    color: rgba(255, 255, 255, 0.863);
+    padding-top: 3rem;
+    font-family: bree;
+}
+
+.dishes{
+    background-color: rgba(209, 185, 148, 0.359);
+    height: 98rem;
+}
+.dishes__content{
+    display: flex;
+}
+.dishes__texts{
+    padding-top: 25rem;
+    margin-left: 5rem;
+}
+.dishes__topic{
+    color: rgb(222, 115, 15);
+    font-family: bree;
+}
+.dishes__wish{
+    font-family: bree;
+    font-size: 4.5rem;
+    color:rgb(42, 40, 40) ;
+    max-width: 50rem;
+    line-height: 1.3;
+    margin-top: 1.5rem;
+}
+.dishes__des{
+    font-family: courgette;
+    max-width: 27rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color:rgba(58, 58, 58, 0.71) ;
+}
+.dishes__coffee{
+    display: flex;
+    font-family: bree;
+    margin-top: 2rem;
+}
+.dishes__text{
+    padding-right: 3rem;
+    font-size: 2rem;
+    color:rgb(42, 40, 40) ;
+}
+.dishes__text-color{
+    color: rgb(222, 115, 15);
+}
+.dishes__more{
+    padding-top: 3rem;
+    font-family: bree;
+    color:rgb(42, 40, 40)
+}
+.dishes__img{
+    width: 45rem;
+}
+.dishes__img-pic{
+    margin-top: 15rem;
+    margin-left: 19rem;
+    position: relative;
+}
+.dishes__pic{
+     width: 35rem;
+    height: 50rem;
+    border: 4px solid;
+    border-image-source: linear-gradient(to right,rgba(56, 56, 56, 0.666) , 65%,rgba(255, 255, 255, 0.836));
+    border-image-slice: 6;
+}
+.dishes__comment{
+    background-color: #fff;
+    width: 28rem;
+    height: 9rem;
+    text-align: center;
+    font-family:  courgette;
+    padding: 2.6rem 1rem;
+    position: absolute;
+    border: 4px solid;
+    border-image-source: linear-gradient(to right,rgb(56, 56, 56) , 65%,rgba(255, 255, 255, 0.503));
+    border-image-slice: 6;
+    bottom: 61rem;
+    margin-left: 14rem;
+}
+.dishes__like{
+
+}
+.dishes__icon{
+    position: absolute;
+    bottom: 64rem;
+    margin-left: 13rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(56, 56, 56);
+    border-radius: 100%;
+    padding: 0.3rem;
+}
+.three_text-dish{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.three__topic{
+    color: rgb(222, 115, 15);
+    font-family: bree;
+}
+
+.three__wish{
+    font-family: bree;
+    font-size: 4.5rem;
+    color:rgb(42, 40, 40) ;
+    max-width: 55rem;
+    line-height: 1.3;
+    margin-top: 1.5rem;
+}
+.three__des{
+     font-family: courgette;
+    max-width: 27rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: rgba(58, 58, 58, 0.71) ;;
+}
+
+.shop{
+    background-color:rgb(42, 40, 40) ;
+    width: 100%;
+    height: 55rem;
+}
+.shop__img{
+    display: flex;
+}
+.shop__pic{
+    height: 30rem;
+    width: 75rem;
+    border: 4px solid;
+    border-image-source: linear-gradient(to bottom,rgba(56, 56, 56, 0.666) , 65%,rgba(255, 255, 255, 0.836));
+    border-image-slice: 6;
+    margin-top: -5rem;
+    position: relative;
+}
+.shop__comment{
+    background-color: #fff;
+    width: 28rem;
+    height: 9rem;
+    text-align: center;
+    font-family:  courgette;
+    padding: 2.6rem 1rem;
+    position: absolute;
+    border: 4px solid;
+    border-image-source: linear-gradient(to right,rgb(56, 56, 56) , 65%,rgba(255, 255, 255, 0.503));
+    border-image-slice: 6;
+    top: 12rem;
+    left: 5rem;
+}
+.shop__image{
+    width: 30rem;
+    height: 35rem;
+    border: 4px solid;
+    border-image-source: linear-gradient(to right,rgba(56, 56, 56, 0.666) , 65%,rgba(255, 255, 255, 0.836));
+    border-image-slice: 6;
+    margin-left: 3rem;
+    margin-top: -5rem;
+}
+.shop__customer{
+    display: flex;
+    margin-top: 4rem;
+}
+.shop__pic-customer{
+    width: 30rem;
+    height: 35rem;
+    border: 4px solid;
+    border-image-source: linear-gradient(to right,rgba(56, 56, 56, 0.666) , 65%,rgba(255, 255, 255, 0.836));
+    border-image-slice: 6;
+    position: relative;
+}
+.shop__comment-customer{
+    background-color: #fff;
+    width: 28rem;
+    height: 9rem;
+    text-align: center;
+    font-family:  courgette;
+    padding: 2.6rem 1rem;
+    position: absolute;
+    border: 4px solid;
+    border-image-source: linear-gradient(to right,rgb(56, 56, 56) , 65%,rgba(255, 255, 255, 0.503));
+    border-image-slice: 6;
+    right: 5rem;
+    bottom: 17rem;
+}
+.shop__image-customer{
+    height: 30rem;
+    width: 75rem;
+    border: 4px solid;
+    border-image-source: linear-gradient(to bottom,rgba(56, 56, 56, 0.666) , 65%,rgba(255, 255, 255, 0.836));
+    border-image-slice: 6;
+    margin-left: 3rem;
+}
+.company{
+    background-color:  rgba(209, 185, 148, 0.359);
+    height: 45rem;
+}
+.company__text{
+    padding-top: 20rem ;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: bree;
+    color: rgba(58, 58, 58, 0.71);
+}
+.text-colored{
+    color:rgb(42, 40, 40);
+}
+.company__names{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    color: rgba(58, 58, 58, 0.71);
+    font-size: 2.8rem;
+    font-family:  courgette;
+}
+.company__name{
+    
+}
+.idea{
+    background-color:  rgba(209, 185, 148, 0.359);
+    height: 45rem;
+    display: flex;
+}
+.idea__left{
+    width: 50rem;
+}
+.left__topic{
+    color: rgb(222, 115, 15);
+    font-family: bree;
+}
+.left__wish{
+    font-family: bree;
+    font-size: 4rem;
+    color:rgb(42, 40, 40) ;
+    max-width: 40rem;
+    line-height: 1.3;
+    margin-top: 1.5rem;
+}
+.left__des{
+    font-family: courgette;
+    max-width: 27rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: rgba(58, 58, 58, 0.71) ;;
+}
+.idea__buttons{
+    display: flex;
+}
+.idea__button{
+    margin-top: 3rem;
+    padding-right: 3rem;
+    font-size: 1.8rem;
+    color: rgba(58, 58, 58, 0.71);
+}
+.idea-colored{
+    color:rgb(42, 40, 40) ;
+}
+.idea__center{
+    background-color: rgb(42, 40, 40);
+    width: 35rem;
+    height: 25rem;
+    border: 4px solid;
+    border-image-source: linear-gradient(to right,rgba(104, 104, 104, 0.938) , 65%,rgba(255, 255, 255, 0.845));
+    border-image-slice: 6;
+    padding: 2rem 2rem ;
+    margin-top: 1rem;
+   margin-right: 2rem;
+}
+.center__text{
+    color: rgba(255, 255, 255, 0.863);
+    font-family:  courgette
+}
+.center__name{
+    color: rgba(255, 255, 255, 0.863);
+    font-family:  courgette;
+    margin-top: 2rem;
+}
+.center__nickname{
+    color: rgba(255, 255, 255, 0.863);
+    font-family:  courgette;
+    margin-top: 2rem;
+}
+.idea__right{
+    background-color: #fff;
+    width: 35rem;
+    height: 25rem;
+    font-family:  courgette;
+    padding: 2rem 2rem ;
+    margin-top: 5rem;
+    border: 4px solid;
+    border-image-source: linear-gradient(to right,rgba(104, 104, 104, 0.827) , 65%,rgba(255, 255, 255, 0.845));
+    border-image-slice: 6;
+    padding: 2rem 2rem ;
+}
+.right__text{
+
+}
+.right__name{
+    margin-top: 2rem;
+}
+.right__nickname{
+    margin-top: 2rem;
+}
+.last{
+    background-color:  rgba(209, 185, 148, 0.359);
+    height: 25rem;
+}
+.last__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}            
+.last__text{
+    font-family: bree;
+    font-size: 4.5rem;
+    color:rgb(42, 40, 40) ;
+    max-width: 25rem;
+    line-height: 1.3;
+}
+.last__des{
+    font-family: courgette;
+    max-width: 35rem;
+    font-size: 1.5rem;
+    color: rgba(58, 58, 58, 0.71) ;
+}
+.last__btn{
+    color: #fff;
+    background-color: rgb(36, 35, 35);
+    padding: 1.5rem 3rem;
+    border: 3px solid;
+    border-image-source: linear-gradient(to right, rgba(56, 56, 56, 0.76) ,rgba(255, 255, 255, 0.656));
+    border-image-slice: 6;
+}
+.footer{
+    background-color:  rgb(42, 40, 40);
+    height: 32rem;
+    padding-top: 2rem;
+}
+.footer__content{
+    color: rgba(200, 199, 199, 0.863);
+    font-family: bree;
+    display: flex;
+}
+.left{
+
+}
+.header__logo{
+
+}
+.header__pic{
+
+}
+.footer__icon{
+    color: #fff;
+    font-size: 1.9rem;
+    padding-left: 2rem;
+}
+.footer__text{
+    font-size: 1.5rem;
+    max-width: 28rem;
+    padding-top: 1.5rem;
+}
+.footer__location{
+    display: flex;
+    margin-top: 5rem;
+}
+.footer__img{
+
+}
+.footer__adress{
+
+}
+.right{
+   padding-top: 2rem;
+}
+.footer__right{
+    display: flex;
+}
+.facility{
+    padding-left: 12.5rem;
+}
+.right__text{
+    padding-top: 1.5rem;
+}
+.right__text-colored{
+    font-size: 2rem;
+    color: #fff;
+}
+.product{
+    padding-left: 5.5rem;
+    
+}
+.Suport{
+    padding-left: 5.5rem;
+}
+        

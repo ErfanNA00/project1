@@ -1,0 +1,14 @@
+@font-face{
+    font-family: courgette;
+    src: url(./fonts/Courgette-Regular.ttf);
+}
+
+@font-face{
+    font-family: Roboto_medium;
+    src: url(./fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face{
+    font-family: bree;
+    src: url(./fonts/BreeSerif-Regular.ttf);
+}
